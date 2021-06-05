@@ -65,3 +65,39 @@
         margin-bottom: 1rem;
     }
 } 
+
+@media all and (min-width: 400px){
+    nav.navegadorInterno{
+        width: 15rem;
+        margin-right: 1rem;
+    }
+    nav.navegadorInterno a{
+        font-size: 15px;
+        width: 10rem;    
+    }
+    .skillsContainer{
+        height: 50rem;
+    }
+
+}
+
+@media all and (min-width: 768px){
+    nav.navegadorInterno{
+        width: 17rem;
+        margin-right: 2rem;
+    }
+    nav.navegadorInterno a{
+        font-size: 18px;
+        width: 10rem;    
+    }
+
+    #sobre{
+        font-size:medium;
+    }
+
+    .legendBox{
+        width: 50%;
+        margin-top: 1rem;
+    }
+
+}

@@ -1,0 +1,124 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgba(112, 128, 144, 0.486);
+    width: 100%;
+    margin: 0;
+
+}
+main{
+    margin-top: 5rem;
+}
+.info img{
+    width: 15rem;
+    border-radius: 50%;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dados{
+    margin-left: 2rem;
+    align-self: flex-start;
+}
+
+h1.containerTitle{
+    text-align: center;
+    margin-bottom: 4rem;
+    width: 100%;
+}
+
+#sobre{
+    margin-top: 2rem;
+    font-weight: 500;
+    background-color: snow;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0px 4px 4px #3b5898;
+    height: 15rem;
+}
+
+
+.skillsContainer{
+    height: 22rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    justify-content: space-evenly;
+    
+}
+
+.skillbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid black;
+    width: 12rem;
+    
+}
+
+.front {
+    border-color: darkgoldenrod;
+}
+
+.back {
+    border-color: darkgreen;
+}
+
+.BD {
+    border-color: darkcyan;
+}
+
+.outros {
+    border-color: darkslategray;
+}
+
+ul{
+    list-style: none outside;
+    width: 100%;  
+}
+
+.legend{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+h5{
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.legendBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    width: 45%;
+    height: 5rem;
+    margin-top: 4rem;
+}
+
+.legend ul{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+#Formacao{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10rem;
+    height: 28rem;
+    background-color: snow;
+    justify-content: space-around;
+}
+
+.formacaoBox{
+    text-align: center;
+    border: 2px solid black;
+    width: 25%;
+}

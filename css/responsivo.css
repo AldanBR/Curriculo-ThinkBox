@@ -60,7 +60,6 @@
     }
 
     .formacaoBox{
-        text-align: center;
         width: 80%;
         margin-bottom: 1rem;
     }
@@ -98,6 +97,30 @@
     .legendBox{
         width: 50%;
         margin-top: 1rem;
+    }
+    #Formacao{
+        height: 50rem;
+    }
+    .formacaoBox {
+        width: 45%;
+    }
+
+}
+
+@media all and (min-width: 1000px){
+
+    .skillsContainer{
+        height: 40rem;
+    }
+    .legendBox{
+        width: 40%;
+        margin-top: 4rem;
+    }
+    #Formacao{
+        height: 36rem;
+    }
+    .formacaoBox {
+        width: 25%;
     }
 
 }

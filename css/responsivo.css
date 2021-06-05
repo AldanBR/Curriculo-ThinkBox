@@ -1,4 +1,4 @@
-@media all and (min-width: 360px){
+ @media all and (min-width: 250px){
     nav.linksExternos{
         margin-left: .2rem;
         width: 8rem;
@@ -64,4 +64,4 @@
         width: 80%;
         margin-bottom: 1rem;
     }
-}
+} 

@@ -1,0 +1,67 @@
+@media all and (min-width: 360px){
+    nav.linksExternos{
+        margin-left: .2rem;
+        width: 8rem;
+        justify-content: center;
+    }
+    
+    nav.linksExternos a{
+        font-size: 2rem;
+        align-content: center;
+        padding: .2rem;
+    
+    }
+
+    nav.navegadorInterno{
+        width: 12rem;
+        margin-right: 1rem;
+    }
+    nav.navegadorInterno a{
+        font-size: 13px;
+        width: 10rem;    
+    
+    }
+
+    #sobre{
+        font-size: small;
+        margin-top: 2rem;
+        font-weight: 500;
+        padding: 1.2rem 1rem;
+        height: 22rem;
+        
+    }
+
+    .skillsContainer{
+        height: 80rem;
+    }
+
+    h1#skills.containerTitle{
+        margin-bottom: 0;
+
+    }
+    .skillbox{
+        margin-bottom: .3rem;
+    }
+    
+    .legendBox{
+        width: 90%;
+        margin-top: 1rem;
+    }
+
+    .legendBox ul{
+        padding: 0;
+    }
+
+    .legendBox ul li{
+        font-size: small;
+    }
+    #Formacao{
+        height: 74rem;
+    }
+
+    .formacaoBox{
+        text-align: center;
+        width: 80%;
+        margin-bottom: 1rem;
+    }
+}
